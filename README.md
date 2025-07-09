@@ -8,8 +8,7 @@ Testing and developing autonomous guided vehicle (AGV) behaviors using the Turtl
 SURP25-AGV/
 ├── simulator/
 │   ├── Dockerfile
-│   ├── supervisord.conf
-│   └── turtlebot4_sim_arm64.png
+│   └── supervisord.conf
 ├── README.md  ← (you are here)
 ```
 
