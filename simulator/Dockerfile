@@ -7,7 +7,7 @@ ENV ROS_DISTRO=humble
 RUN apt update && apt install -y locales && \
     locale-gen en_US en_US.UTF-8 && \
     update-locale LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8
-ENV LANG en_US.UTF-8
+ENV LANG=en_US.UTF-8
 
 # Install essentials
 RUN apt update && apt install -y \
