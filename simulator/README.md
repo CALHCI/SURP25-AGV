@@ -33,3 +33,9 @@ The container:
 - Installs all required ROS 2 and Ignition packages
 - Clones and builds the TurtleBot 4 simulator
 - Automatically launches the simulator in a virtual display
+
+## 🖼️ Final Result
+
+Below is a screenshot of the TurtleBot 4 Simulator running in a virtualized GUI via VNC:
+
+![Final result of TurtleBot 4 Simulator](result.png)
