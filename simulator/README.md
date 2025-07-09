@@ -60,3 +60,15 @@ You will see a full Ubuntu LXDE desktop inside your browser or VNC viewer.
 * You get an interactive full desktop environment running in your browser, preloaded with all necessary tools to simulate, visualize, and control the TurtleBot 4 in both 2D and 3D worlds.
 
 * Need to connect a real robot? No problem. Just map USB devices or use `--network host` and set up your ROS\_DOMAIN\_ID accordingly.
+
+* You're in full control of ROS 2.
+
+
+## 🖼️ Screenshot
+
+Here’s what the virtual desktop looks like with the TurtleBot 4 simulator:
+
+![TurtleBot 4 Simulator GUI Screenshot](docs/screenshot.png)
+
+> _Replace `docs/screenshot.png` with your actual image path in your repo._
+
