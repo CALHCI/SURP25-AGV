@@ -1,5 +1,4 @@
 # TurtleBot 4 Simulator in Docker 
-# ROS 2 Humble + Ignition Fortress
 
 This Docker setup provides a ready-to-use environment for simulating the TurtleBot 4 using ROS 2 Humble and Ignition Fortress.
 
