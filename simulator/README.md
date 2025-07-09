@@ -68,7 +68,7 @@ You will see a full Ubuntu LXDE desktop inside your browser or VNC viewer.
 
 Here’s what the virtual desktop looks like with the TurtleBot 4 simulator:
 
-![TurtleBot 4 Simulator GUI Screenshot](docs/screenshot.png)
+![TurtleBot 4 Simulator GUI Screenshot](screenshot.png)
 
 > _Replace `docs/screenshot.png` with your actual image path in your repo._
 
