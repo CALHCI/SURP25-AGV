@@ -8,7 +8,7 @@ This Docker setup provides a ready-to-use environment for simulating the TurtleB
 - ROS 2 Humble
 - TurtleBot 4 Simulator (Ignition-based)
 - A full LXDE desktop inside a Docker container
-- GUI access via browser at [http://localhost:6080](http://localhost:6080)
+- GUI access via browser
 - Working noVNC + VNC display stack
 
 
