@@ -4,10 +4,13 @@ This Docker setup provides a ready-to-use environment for simulating the TurtleB
 
 ## 🚀 Features
 
-- Ubuntu 22.04 + ROS 2 Humble
+- Ubuntu 22.04 
+- ROS 2 Humble
 - TurtleBot 4 Simulator (Ignition-based)
-- GUI via VNC and noVNC
-- ROS workspace with pre-built packages
+- A full LXDE desktop inside a Docker container
+- GUI access via browser at [http://localhost:6080](http://localhost:6080)
+- Working noVNC + VNC display stack
+
 
 ## 🔧 Build the Docker Image
 
@@ -18,7 +21,7 @@ docker build -t turtlebot4_sim .
 ## ▶️ Run the Simulator with GUI (VNC)
 
 ```bash
-docker run -it --rm -p 5901:5901 -p 6080:6080 --name turtlebot4 turtlebot4_sim
+docker run -it --rm -p 5900:5900 -p 6080:6080 --name turtlebot4 turtlebot4_sim
 ```
 
 Then open your browser to:
@@ -26,12 +29,17 @@ Then open your browser to:
 - `http://localhost:6080` (web-based VNC viewer)
 - or connect with a VNC client to `localhost:5901` (password: `vncpassword`)
 
+You’ll see a full Linux desktop running inside your browser, with the TurtleBot 4 Ignition simulator starting automatically.
+
 ## 🧠 What's Inside
 
 The container:
 
-- Installs all required ROS 2 and Ignition packages
-- Clones and builds the TurtleBot 4 simulator
+- Ubuntu 22.04 base image
+- Full ROS 2 Humble desktop setup
+- TurtleBot 4 packages cloned and built from source
+- Ignition Fortress physics engine
+- LXDE desktop, X11, x11vnc, and noVNC for GUI display
 - Automatically launches the simulator in a virtual display
 
 ## 🖼️ Final Result
