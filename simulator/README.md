@@ -2,8 +2,6 @@
 
 This Docker setup provides a full-featured environment for simulating the TurtleBot 4 using ROS 2 Humble and Ignition Fortress.
 
----
-
 ## 🚀 Features
 
 * Ubuntu 22.04
@@ -19,15 +17,11 @@ This Docker setup provides a full-featured environment for simulating the Turtle
   * Keyboard Teleoperation
 * Open terminal access to run custom `ros2` commands
 
----
-
 ## 🔧 Build the Docker Image
 
 ```bash
 docker build -t turtlebot4_sim .
 ```
-
----
 
 ## ▶️ Run the Simulator with GUI (noVNC)
 
@@ -49,7 +43,6 @@ docker run -it --rm \
 
 You will see a full Ubuntu LXDE desktop inside your browser or VNC viewer.
 
----
 
 ## 🧠 What You Can Do Inside the Desktop
 
@@ -58,7 +51,6 @@ You will see a full Ubuntu LXDE desktop inside your browser or VNC viewer.
 * Click **Keyboard Teleop** to control a robot using your keyboard.
 * Open the **LXTerminal** and run any ROS 2 command (e.g., `ros2 topic list`).
 
----
 
 ## 📊 What's Inside the Docker Container
 
@@ -71,7 +63,6 @@ You will see a full Ubuntu LXDE desktop inside your browser or VNC viewer.
 * **Desktop shortcuts** for launching the simulators and teleop
 * **Pre-configured ROS environment**
 
----
 
 ## 🖼️ Result
 
