@@ -21,7 +21,7 @@ This Docker setup provides a full-featured environment for simulating the Turtle
 ## 🔧 Build the Docker Image
 
 ```bash
-docker build -t turtlebot4_sim .
+docker build --no-cache -t turtlebot4_sim .
 ```
 
 
